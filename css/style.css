@@ -6,6 +6,7 @@
 }
 
 /*ÍNDEX*/
+
 /*Encabezado*/
 header{
     display: flex;
@@ -44,6 +45,7 @@ header{
 
 .menu li a:hover{
     opacity: 0.5;
+    transform: scale(1.1);
 }
 
 /*Sub Menú*/
@@ -77,6 +79,7 @@ header{
 
 .logo__wa:hover{
     opacity: 0.7;
+    transform: scale(1.1);
 }
 
 /*Fondo de pantalla index*/
@@ -120,6 +123,7 @@ header{
 
 .contenido__principal--boton:hover{
     opacity: 0.5;
+    transform: scale(1.1);
 }
 
 .boton__texto{
@@ -161,6 +165,11 @@ footer{
     width: 70%;
 }
 
+.logos__RRSS--lista li a img:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+
 
 
 /*PÁGINA PROYECTOS*/
@@ -184,6 +193,7 @@ footer{
 
 .logo__wa--proyecto:hover{
     opacity: 0.7;
+    transform: scale(1.1);
 }
 
 /*GRID*/
@@ -257,6 +267,11 @@ footer{
 .logos__RRSS--proyecto li a img{
     display: flex;
     width: 60%;
+}
+
+.logos__RRSS--proyecto li a img:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
 }
 
 /*Pie de página en Proyectos*/
